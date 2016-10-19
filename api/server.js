@@ -27,6 +27,12 @@ server.register([
     {
         register: require('good'),
         options: goodOptions
+    },
+    {
+        register: require('./modules/users'),
+        routes: {
+            prefix: '/api'
+        }
     }
 ], err => {
 
