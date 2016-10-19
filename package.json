@@ -1,0 +1,31 @@
+{
+    "name": "hapi-template",
+    "version": "0.1.0",
+    "description": "Hapi.js template for Web APIs",
+    "main": "api/server.js",
+    "scripts": {
+        "develop": "nodemon api/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lukalopusina/hapi-template.git"
+    },
+    "keywords": [
+        "Hapi.js",
+        "Node",
+        "API",
+        "Template"
+    ],
+    "author": "lukalopusina",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lukalopusina/hapi-template/issues"
+    },
+    "homepage": "https://github.com/lukalopusina/hapi-template#readme",
+    "dependencies": {
+        "good": "^7.0.2",
+        "good-console": "^6.1.2",
+        "hapi": "^15.1.1",
+        "inert": "^4.0.2"
+    }
+}
